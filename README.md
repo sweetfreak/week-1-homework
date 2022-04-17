@@ -1,46 +1,33 @@
-# 01 HTML, CSS, and Git: Code Refactor
+## HTML Refactor Overview
+This website has been refactored in order to improve accessibility options as well as Search Engine Optimization (SEO).
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities and/or socio-economic restrictions have access to their website. Accessible websites are better optimized for search engines, and help companies avoid litigation.
+## How To Set Up
+This HTML file requires a .CSS style sheet. By placing the entire website folder on a server together, it can be uploaded to a server, and the files can be found.
 
-For this week's Challenge, your task is to refactor an existing webpage to make it accessible and to improve SEO. It's important to follow the Scout Rule when working with an existing codebase: Always leave the code a little cleaner than you found it. 
-
-To impress the imaginary client for this Challenge, you should go the extra mile and improve their codebase for long-term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, such as by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Remember when working with a client, it is essential to read the acceptance criteria for guidance and clarity on what the client expects, especially when asked to make a judgment call, such as when an icon needs an accessible alt tag and when it is okay to leave it blank. 
-
-To successfully complete this week's Challenge, all acceptance criteria must be fully addressed!
-
-## User Story
+## What has been done:
 
 ```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our site is optimized for search engines
+1. Added a new, descriptive title to webpage
+
+2. Changed many "div" tags to semantic tags including:
+- header
+- nav
+- section (twice)
+- footer
+
+3. Practiced "DRY" method by consolidating CSS classes including:
+- All "benefit-{placeholder} img" classes for each section
+- All "h3" tags
+- all div tags within "benefits" class into a single "benefit div" class
+- all div tags in "content" class into a single "content div" class
+
+4. Added "alt" tags to each image
+
+5. Added "alt" tags to each icon, but left description blank
+
+6. Fixed navigation tag for "Search Engine Optimization"
+
+7. Font "Calibri" wasn't in quotes
+
+8. Added comments to mark the start of each new article of the page
 ```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-*THEN I find semantic HTML elements  == switch the divs to more relevant info
-WHEN I view the structure of the HTML elements
-*THEN I find that the elements follow a logical structure independent of styling and positioning == make it look nice?
-WHEN I view the icon and image elements
-*THEN I find accessible alt attributes == add the "alt" tag to each image
-WHEN I view the heading attributes
-*THEN I find that they fall in sequential order == Switch the order of header stuff?
-WHEN I view the title element
-*THEN I find a concise, descriptive title == give it a title
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
