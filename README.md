@@ -41,6 +41,7 @@ This HTML file requires a .CSS style sheet. By placing the entire website folder
 ```
 
 ## License 
+Source: choosealicense.com
 ```
 This is free and unencumbered software released into the public domain.
 
